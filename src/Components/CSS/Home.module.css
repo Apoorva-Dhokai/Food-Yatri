@@ -1,0 +1,83 @@
+.home {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../../assets/images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.intro {
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .pro_name {
+    font-size: 3em;
+    line-height: 1.5;
+    margin-top: 100px;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: 20px;
+  }
+  
+  .pro_dec {
+    font-size: 1.5em;
+    /* text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; */
+    /* text-shadow: 0 0 10px #ffcccc, 0 0 20px #ff6666, 0 0 30px #ff1a1a; */
+    text-shadow: 0 0 10px #ffcccc, 0 0 20px #ff6666, 0 0 30px #ff3333;
+}
+  
+  .oval {
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px auto;
+    margin-top: 100px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  footer p {
+    font-size: 1em;
+    margin: 0;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+}
+
+footer p::before {
+    content: open-quote;
+}
+
+footer p::after {
+    content: close-quote;
+}
+
+footer p::before,
+footer p::after {
+    color: #FF6347; /* Tomato color for quotation marks */
+    font-size: 1.5em;
+}
+
+footer p span {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8em;
+}

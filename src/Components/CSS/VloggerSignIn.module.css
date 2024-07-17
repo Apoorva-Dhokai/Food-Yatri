@@ -1,0 +1,90 @@
+.vlogger {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../../assets//images/Signup.png");
+  }
+  
+  .signupBox {
+    margin-left: 50px;
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+    /* margin-top: 100px; */
+  }
+  
+  .signupHeading {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 0px;
+    margin-left: 180px;
+  }
+  
+  .loginInput {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .active {
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+  }
+  
+  nav .active:hover {
+    color: white;
+  }
+  
+  .textbox {
+    border: none;
+    width: 95%;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .passwordContainer {
+    position: relative;
+    border: none;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+  
+  .togglePassword {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .submit {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    background-color: darkred;
+  }

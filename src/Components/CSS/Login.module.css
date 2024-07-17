@@ -1,0 +1,74 @@
+.login {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-image: url("../../assets//images/Login.jpg");
+  }
+  
+  .signup_box {
+    /* margin-top: 125px; */
+    margin-left: 50px;
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+  }
+  
+  .signup_heading {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 175px;
+  }
+  
+  .login_input {
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 50px;
+  }
+  
+  .textbox {
+    border: none;
+    width: 95%;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .passwordcontainer {
+    position: relative;
+    border: none;
+    width: 95%;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px; 
+    margin-left: 25px;
+  }
+  
+  .togglepassword {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .submit {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .submit:hover {
+    background-color: darkred;
+  }
