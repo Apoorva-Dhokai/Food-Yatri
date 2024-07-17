@@ -16,4 +16,4 @@ making it convenient for followers to find specific food destinations for their 
 - **User-Friendly Interface:** Our website is easy to use. Navigate effortlessly to find what you're looking for and enjoy exploring the world of food!
 
 ## Technologies Used
-  Frontend: HTML, CSS, JavaScript
+  Frontend: HTML, CSS, JavaScript, React.js
