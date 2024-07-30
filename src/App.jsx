@@ -6,6 +6,7 @@ import Login from "./Components/Login";
 import SignIn from "./Components/UserSignIn";
 import VSignIn from "./Components/VloggerSignIn";
 import TopVlogger from "./Components/TopVlogger";
+import Profile from "./Components/VloggerProfile";
 import "./App.css";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/vsignin" element={<VSignIn />} />
           <Route path="/topvlogger" element={<TopVlogger />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </div>
     </Router>

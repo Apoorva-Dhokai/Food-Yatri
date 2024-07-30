@@ -45,7 +45,7 @@ const TopVlogger = () => {
             </li>
           </ul>
           <div className="profile">
-            <Link to="#">
+            <Link to="/profile">
               <img
                 height="30"
                 src={profile}
@@ -75,6 +75,17 @@ const TopVlogger = () => {
                   <span className={styles.name}>Joohie Patel</span>
                   <span className={styles.city}>Vadodara</span>
                 </div>
+                <div className={styles.rating}>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-regular fa-star"></i>
+                </div>
+                <div className={styles.button}>
+                  <button className="aboutMe">Follow</button>
+                  <Link to="/profile"><button className="Explore">Explore</button></Link>
+                </div>
               </div>
             </div>
 
@@ -91,6 +102,17 @@ const TopVlogger = () => {
                 <div className={styles.name_city}>
                   <span className={styles.name}>Nishith Patel</span>
                   <span className={styles.city}>Vadodara</span>
+                </div>
+                <div className={styles.rating}>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-regular fa-star"></i>
+                </div>
+                <div className={styles.button}>
+                  <button className="aboutMe">Follow</button>
+                  <Link to="/profile"><button className="Explore">Explore</button></Link>
                 </div>
               </div>
             </div>
@@ -109,6 +131,17 @@ const TopVlogger = () => {
                   <span className={styles.name}>Hasti Dholakia</span>
                   <span className={styles.city}>Surat</span>
                 </div>
+                <div className={styles.rating}>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-regular fa-star"></i>
+                </div>
+                <div className={styles.button}>
+                  <button className="aboutMe">Follow</button>
+                  <Link to="/profile"><button className="Explore">Explore</button></Link>
+                </div>
               </div>
             </div>
 
@@ -125,6 +158,17 @@ const TopVlogger = () => {
                 <div className={styles.name_city}>
                   <span className={styles.name}>Arti Patel</span>
                   <span className={styles.city}>Mumbai</span>
+                </div>
+                <div className={styles.rating}>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-regular fa-star"></i>
+                </div>
+                <div className={styles.button}>
+                  <button className="aboutMe">Follow</button>
+                  <Link to="/profile"><button className="Explore">Explore</button></Link>
                 </div>
               </div>
             </div>
@@ -143,6 +187,17 @@ const TopVlogger = () => {
                   <span className={styles.name}>Manan Patel</span>
                   <span className={styles.city}>Surat</span>
                 </div>
+                <div className={styles.rating}>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-regular fa-star"></i>
+                </div>
+                <div className={styles.button}>
+                  <button className="aboutMe">Follow</button>
+                  <Link to="/profile"><button className="Explore">Explore</button></Link>
+                </div>
               </div>
             </div>
 
@@ -159,6 +214,17 @@ const TopVlogger = () => {
                 <div className={styles.name_city}>
                   <span className={styles.name}>Vinesh Patel</span>
                   <span className={styles.city}>Ahmedabad</span>
+                </div>
+                <div className={styles.rating}>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-regular fa-star"></i>
+                </div>
+                <div className={styles.button}>
+                  <button className="aboutMe">Follow</button>
+                  <Link to="/profile"><button className="Explore">Explore</button></Link>
                 </div>
               </div>
             </div>

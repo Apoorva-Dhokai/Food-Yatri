@@ -1,0 +1,96 @@
+.profile {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../../assets/images/vlogger_profile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    min-height: 100vh;
+    min-width: 10vw;
+}
+
+.profile_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /* padding-top: 150px; */
+}
+
+.profile_header {
+    margin-bottom: 20px;
+}
+
+.profile_image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile_name {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.profile_title {
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.profile_details {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.profile_social {
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.social_icons a {
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+.social_icons a:hover {
+    color: #0077b5;
+}
+
+.profile_posts {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    text-align: left;
+}
+
+.post {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.post_image, .post_video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post_caption {
+    padding: 15px;
+    font-size: 1em;
+    color: #ffffff;
+}
+  
+  /* Search Bar Styles */
+  .search_bar input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background: #f0f0f0;
+    width: 200px;
+  }
